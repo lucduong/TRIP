@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/shadow_effect"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dlg_cmt"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_body"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="154 Người thích điều này" />
+
+        <ListView
+            android:id="@+id/lstv_cmt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnl_btn_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_cmt_border_top"
+        android:orientation="horizontal"
+        android:weightSum="10" >
+
+        <EditText
+            android:id="@+id/edt_cmt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="Viết bình luận"
+            android:padding="5dp"
+            android:singleLine="false"
+            android:textColorHint="#7d8284"
+            android:textSize="13sp" >
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_cmt"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/bg_btn_cmt"
+            android:text="Đăng"
+            android:textColor="#4d5254"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

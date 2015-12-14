@@ -1,0 +1,70 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <!-- Framelayout to display Fragments -->
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Listview to display slider menu -->
+
+    <LinearLayout
+        android:id="@+id/left_drawer"
+        android:layout_width="260dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="start"
+        android:background="@drawable/nav_bg_shadow"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="135dp"
+            android:background="#FFFFFF" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#FFFFFF"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:background="@drawable/vinh"
+                    android:gravity="center_horizontal" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/bg_with_border_bottom" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="bottom|center"
+                android:padding="5dp"
+                android:src="@drawable/bg_date"
+                android:contentDescription="@null"/>
+        </FrameLayout>
+
+        <ListView
+            android:id="@+id/list_slidermenu"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="start"
+            android:background="#ffffff"
+            android:choiceMode="singleChoice"
+            android:divider="@color/nav_divider"
+            android:dividerHeight="1dp"
+            />
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

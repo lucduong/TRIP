@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Travelling</string>
+    <string name="action_settings">Settings</string>
+    <string name="loginTitle">Please Enter Your Information</string>
+    <string name="dangNhap">Đăng Nhập</string>
+    <string name="usrNm">Tên Đăng Nhập</string>
+    <string name="pwd">Mật Khẩu</string>
+    <string name="remind">Ghi nhớ</string>
+    <string name="login">Đăng Nhập</string>
+    <string name="loginByOther">Or Login Using</string>
+    <string name="forgetPwd">Quên mật khẩu</string>
+    <string name="retrieve_password">Retrieve Password</string>
+    <string name="Enter_your_email_and_to_receive_instructions">Enter your email and to receive instructions</string>
+    <string name="send_Me">Send Me</string>
+    <string name="back_to_login">Back To Login</string>
+    <string name="new_user_registration">New User Registration</string>
+    <string name="email">Email</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="dayTest">22</string>
+
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">#323331</item>
+    </style>
+
+    <style name="CustomTheme" parent="android:Theme">
+        <item name="android:windowTitleSize">40dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+
+    <string name="image_user_registation">Image User Registragion</string>
+    <string name="user_agreeement">I accept User Agreement</string>
+    <string name="reset">Nhập Lại</string>
+    <string name="register">Đăng Ký</string>
+    <string name="tripStart">Sài Gòn : 22/10</string>
+    <string name="tripEnd">Hà Nội: 30/10</string>
+    <string name="title_activity_trip_infio">Information</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nhanxet">Nhận xét</string>
+    <string name="nhanxetHint">Để lại nhận xét&#8230;</string>
+    <string name="stations">CÁC ĐIỂM DỪNG CHÂN</string>
+    <string name="btnJoin">Tham gia</string>
+    <string name="danhSachPhuot">CÁC CHUYẾN PHƯỢT NỔI BẬT</string>
+
+    <string-array name="navigation_items">
+        <item>Các chuyến đi của tôi</item>
+        <item>Tin nhắn từ bạn bè</item>
+        <item>Lịch các chuyến đi</item>
+        <item>Tạo chuyến đi</item>
+        <item>Tìm kiếm các chuyến đi</item>
+        <item>Địa điểm nên đi</item>
+        <item>Tài khoản</item>
+    </string-array>
+    <string-array name="months">
+        <item>JANUARY</item>
+        <item>FEBRUARY</item>
+        <item>MARCH</item>
+        <item>APRIL</item>
+        <item>MAY</item>
+        <item>JUNE</item>
+        <item>JULY</item>
+        <item>AUGUST</item>
+        <item>SEPTEMBER</item>
+        <item>OCTOBER</item>
+        <item>NOVEMBER</item>
+        <item>DECEMBER</item>
+    </string-array>
+
+    <string name="title_activity_tourist_place">Địa Điểm Tham Quan</string>
+
+     <string name="tab_search">Tìm kiếm</string>
+     
+     <string name="country_prompt">Choose a province</string>
+ 
+    <string-array name="country_arrays">
+        <item>Ho Chi Minh</item>
+        <item>Ha Noi</item>
+        <item>Quang Ngai</item>
+        <item>Dang Nang</item>
+        <item>Dong Nai</item>
+        <item>Vung Tau</item>
+        <item>Long An</item>
+        <item>Tien Giang</item>
+    </string-array>
+    <string-array name="location_arrays">
+        <item>Thac giang dien</item>
+        <item>Vuon xoai</item>
+        <item>Bo cap vang</item>
+        <item>Suoi nuoc nong binh chau</item>
+        <item>Nui Minh Dam</item>
+        <item>Vung Tau</item>
+        <item>Pho co hoi an</item>
+        <item>Chua linhh ung </item>
+    </string-array>
+    <string-array name="day_arrays">
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+    </string-array>
+</resources>
